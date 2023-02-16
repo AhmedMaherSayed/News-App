@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>News App</title>
+</head>
+<body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed">
+        <div class="container-fluid">
+          <a class="navbar-brand"><img id="navImg" src="21601.png"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav navPosition">
+              <li class="nav-item">
+                <a class="nav-link active navLink"  countryCode="eg">Egypt</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active navLink"  countryCode="us">US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active navLink"  countryCode="ca">Canada</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active navLink"  countryCode="jp">Japan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active navLink"  countryCode="mx">Mexico</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active navLink"  countryCode="au">Australia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active navLink" countryCode="it">Italy</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Category
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#" category="business">Bussiness</a></li>
+                  <li><a class="dropdown-item" href="#" category="entertainment">Entertainment</a></li>
+                  <li><a class="dropdown-item" href="#" category="general">General</a></li>
+                  <li><a class="dropdown-item" href="#" category="health">Health</a></li>
+                  <li><a class="dropdown-item" href="#" category="science">Science</a></li>
+                  <li><a class="dropdown-item" href="#" category="sports">Sports</a></li>
+                  <li><a class="dropdown-item" href="#" category="technology">Technology</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- navbar end -->
+      <!-- News starts -->
+      <div class="container">
+        <div id="rowData" class="row">
+            
+        </div>
+      </div>
+
+
+      <!-- News end -->
+
+    <script src="JS/bootstrap.bundle.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+</html>
